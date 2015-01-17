@@ -197,16 +197,6 @@ public class ActionBarWrapper extends ActionBar implements android.app.ActionBar
     }
 
     @Override
-    public View getActionView() {
-      throw new RuntimeException("not supported");
-    }
-
-    @Override
-    public View getContainerView() {
-      throw new RuntimeException("not supported");
-    }
-
-    @Override
     public CharSequence getTitle() {
         return mActionBar.getTitle();
     }

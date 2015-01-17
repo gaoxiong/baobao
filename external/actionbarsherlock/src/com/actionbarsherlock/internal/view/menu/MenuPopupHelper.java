@@ -17,7 +17,6 @@
 package com.actionbarsherlock.internal.view.menu;
 
 import java.util.ArrayList;
-import android.app.Activity;
 import android.content.Context;
 import android.content.res.Resources;
 import android.database.DataSetObserver;
@@ -100,9 +99,6 @@ public class MenuPopupHelper implements AdapterView.OnItemClickListener, View.On
     }
 
     public void show() {
-        if (mContext instanceof Activity && ((Activity) mContext).isFinishing()) {
-            return;
-        }
         if (!tryShow()) {
             throw new IllegalStateException("MenuPopupHelper cannot be used without an anchor");
         }

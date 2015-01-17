@@ -451,20 +451,6 @@ public abstract class ActionBar {
     public abstract View getCustomView();
 
     /**
-     * Added by xubin@wandoujia.com.
-     *
-     * @return the whole action bar view
-     */
-    public abstract View getActionView();
-
-    /**
-     * Added by lixiaopeng@wandoujia.com.
-     *
-     * @return the action bar container
-     */
-    public abstract View getContainerView();
-
-    /**
      * Returns the current ActionBar title in standard mode.
      * Returns null if {@link #getNavigationMode()} would not return
      * {@link #NAVIGATION_MODE_STANDARD}.

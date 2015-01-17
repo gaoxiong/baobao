@@ -380,16 +380,6 @@ public class ActionBarImpl extends ActionBar {
         return mActionView.getCustomNavigationView();
     }
 
-    @Override
-    public View getActionView() {
-      return mActionView;
-    }
-
-    @Override
-    public View getContainerView() {
-      return mContainerView;
-    }
-
     public CharSequence getTitle() {
         return mActionView.getTitle();
     }

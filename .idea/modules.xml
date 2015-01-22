@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/external/actionbarsherlock/actionbarsherlock.iml" filepath="$PROJECT_DIR$/external/actionbarsherlock/actionbarsherlock.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/baobao.iml" filepath="$PROJECT_DIR$/baobao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/external/SlidingMenuLibrary/slidingmenulibrary.iml" filepath="$PROJECT_DIR$/external/SlidingMenuLibrary/slidingmenulibrary.iml" />
     </modules>
   </component>
 </project>

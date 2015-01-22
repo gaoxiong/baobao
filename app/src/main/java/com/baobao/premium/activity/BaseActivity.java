@@ -1,4 +1,4 @@
-package com.baobao.premium;
+package com.baobao.premium.activity;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 /**

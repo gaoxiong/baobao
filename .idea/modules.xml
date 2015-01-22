@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/bao.iml" filepath="$PROJECT_DIR$/app/bao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/external/actionbarsherlock/actionbarsherlock.iml" filepath="$PROJECT_DIR$/external/actionbarsherlock/actionbarsherlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/baobao.iml" filepath="$PROJECT_DIR$/baobao.iml" />
     </modules>
   </component>

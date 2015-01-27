@@ -1,0 +1,118 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<resources>
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="indicatorColor" format="color" />
+        <attr name="underlineColor" format="color" />
+        <attr name="dividerColor" format="color" />
+        <attr name="indicatorHeight" format="dimension" />
+        <attr name="underlineHeight" format="dimension" />
+        <attr name="dividerPadding" format="dimension" />
+        <attr name="tabPaddingLeftRight" format="dimension" />
+        <attr name="scrollOffset" format="dimension" />
+        <attr name="tabBackground" format="reference" />
+        <attr name="shouldExpand" format="boolean" />
+        <attr name="textAllCaps" format="boolean" />
+        <attr name="tabTextSize" format="dimension" />
+        <attr name="tabTextColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="NirvanaTheme" parent="SherlockTheme">
+        <attr name="actionbarStubBackground" format="reference|color"/>
+        <attr name="contentBackground" format="reference|color" />
+        <attr name="verticalId" format="reference" />
+        <attr name="verticalColor" format="color" />
+        <attr name="verticalTabTextColor" format="color" />
+        <attr name="verticalNormalColor" format="reference" />
+        <attr name="verticalButtonBackground" format="reference" />
+        <attr name="verticalProgressDrawable" format="reference" />
+        <attr name="verticalFilterDrawable" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="ScrollDownLayout">
+        <attr name="max_offset" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="CoverNavigationPanel">
+        <attr name="itemDividerWidth" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="SlideLayout">
+        <attr name="leftview" format="reference" />
+        <attr name="rightview" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="NavigationButton">
+        <attr name="text" format="string" />
+        <attr name="activityUri" format="string" />
+        <attr name="clickable" format="boolean" />
+        <attr name="last" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="Button">
+        <attr name="isDetail" format="boolean" />
+        <attr name="state_pending" format="boolean" />
+        <attr name="state_paid" format="boolean" />
+        <attr name="state_install" format="boolean" />
+        <attr name="state_upgrade" format="boolean" />
+        <attr name="state_cancel" format="boolean" />
+        <attr name="state_retry" format="boolean" />
+        <attr name="state_open" format="boolean" />
+        <attr name="state_unzip" format="boolean" />
+        <attr name="state_detail" format="boolean" />
+        <attr name="state_unsubscribed" format="boolean" />
+        <attr name="state_subscribed" format="boolean" />
+        <attr name="state_download_installing" format="boolean" />
+        <attr name="state_upgrade_installing" format="boolean" />
+        <attr name="state_upgrade_install" format="boolean" />
+        <attr name="state_download_install" format="boolean" />
+        <attr name="state_download" format="boolean" />
+        <attr name="state_downloading" format="boolean" />
+        <attr name="state_download_list" format="boolean" />
+        <attr name="state_unavailable" format="boolean" />
+        <attr name="state_pause" format="boolean"/>
+        <attr name="state_continue" format="boolean" />
+        <attr name="state_extract_continue" format="boolean" />
+        <attr name="state_pending_pause" format="boolean"/>
+        <attr name="state_highLight" format="boolean" />
+        <attr name="state_unHighLight" format="boolean" />
+        <attr name="state_warning" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontalSpacing" format="dimension" />
+        <attr name="verticalSpacing" format="dimension" />
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="debugDraw" format="boolean" />
+        <attr name="maxLines" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams">
+        <attr name="layout_newLine" format="boolean" />
+        <attr name="layout_horizontalSpacing" format="dimension" />
+        <attr name="layout_verticalSpacing" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="SwappableLayout">
+        <attr name="group1" format="reference" />
+        <attr name="group2" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="LineWrapLayout">
+        <attr name="rowSpacing" format="dimension" />
+        <attr name="columnSpacing" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="DownloadableProgressView">
+        <attr name="progress_anchorView" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="AppRecommendsView">
+        <attr name="recommendsCount" format="integer" />
+    </declare-styleable>
+    <!--<declare-styleable name="AccountEditText">-->
+        <!--<attr name="content_type" format="enum">-->
+            <!--<enum name="telephone" value="1" />-->
+            <!--<enum name="email" value="2" />-->
+            <!--<enum name="password" value="3" />-->
+        <!--</attr>-->
+        <!--<attr name="status_type" format="enum">-->
+            <!--<enum name="login" value="1" />-->
+            <!--<enum name="register" value="2" />-->
+        <!--</attr>-->
+    <!--</declare-styleable>-->
+    <declare-styleable name="SubActionButton">
+        <attr name="always_show_as_action" format="boolean" />
+        <attr name="action_icon" format="reference" />
+    </declare-styleable>
+</resources>

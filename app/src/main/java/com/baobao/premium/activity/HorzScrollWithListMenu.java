@@ -1,6 +1,5 @@
 package com.baobao.premium.activity;
 
-import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
@@ -26,7 +25,7 @@ import com.baobao.premium.view.BaoHorizontalScrollView;
  * When the button is pressed, both the menu and the app will scroll. So the menu isn't revealed from beneath the app, it
  * adjoins the app and moves with the app.
  */
-public class HorzScrollWithListMenu extends Activity implements OnGestureListener{
+public class HorzScrollWithListMenu extends BaseActivity implements OnGestureListener{
     BaoHorizontalScrollView scrollView;
     View menu;
     View app;

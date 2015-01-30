@@ -116,7 +116,7 @@ public class TabFragmentPagerAdapter extends PagerAdapter implements
     if (curTransaction == null) {
       curTransaction = fragmentManager.beginTransaction();
     }
-    savedStates.put(position, fragmentManager.saveFragmentInstanceState(fragment));
+    //savedStates.put(position, fragmentManager.saveFragmentInstanceState(fragment));
     fragments.remove(position);
 
     curTransaction.remove(fragment);

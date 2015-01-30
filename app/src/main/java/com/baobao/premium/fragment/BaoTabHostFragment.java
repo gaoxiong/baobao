@@ -31,9 +31,9 @@ public class BaoTabHostFragment extends DefaultTabHostFragment {
   public List<TabFragmentDelegate> getTabFragmentDelegates() {
     List<TabFragmentDelegate> delegates = new ArrayList<TabFragmentDelegate>();
     default_tab_config.add(TAB_CATEGORY);
-    default_tab_config.add(TAB_CATEGORY);
-    default_tab_config.add(TAB_CATEGORY);
-    default_tab_config.add(TAB_CATEGORY);
+    default_tab_config.add(TAB_POPULAR);
+    default_tab_config.add(TAB_SPECIAL);
+    default_tab_config.add(TAB_YOUTUBE);
     tab_config = default_tab_config;
 
     if (tab_config.contains(TAB_CATEGORY)) {
@@ -44,6 +44,36 @@ public class BaoTabHostFragment extends DefaultTabHostFragment {
         new TabFragmentDelegate(categoryTab, BaoCategoryFragment.class, null);
       delegates.add(categoryDelegate);
       tabs.add(TAB_CATEGORY);
+    }
+
+    if (tab_config.contains(TAB_POPULAR)) {
+      // category
+      TaggedTab categoryTab = new TaggedTab(BaoApplication.getAppContext()
+        .getString(R.string.tab_category));
+      TabFragmentDelegate categoryDelegate =
+        new TabFragmentDelegate(categoryTab, BaoCategoryFragment.class, null);
+      delegates.add(categoryDelegate);
+      tabs.add(TAB_POPULAR);
+    }
+
+    if (tab_config.contains(TAB_SPECIAL)) {
+      // category
+      TaggedTab categoryTab = new TaggedTab(BaoApplication.getAppContext()
+        .getString(R.string.tab_category));
+      TabFragmentDelegate categoryDelegate =
+        new TabFragmentDelegate(categoryTab, BaoCategoryFragment.class, null);
+      delegates.add(categoryDelegate);
+      tabs.add(TAB_SPECIAL);
+    }
+
+    if (tab_config.contains(TAB_YOUTUBE)) {
+      // category
+      TaggedTab categoryTab = new TaggedTab(BaoApplication.getAppContext()
+        .getString(R.string.tab_category));
+      TabFragmentDelegate categoryDelegate =
+        new TabFragmentDelegate(categoryTab, BaoCategoryFragment.class, null);
+      delegates.add(categoryDelegate);
+      tabs.add(TAB_YOUTUBE);
     }
     return delegates;
   }

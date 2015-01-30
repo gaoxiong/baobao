@@ -7,4 +7,9 @@
     <string name="back">返回</string>
     <string name="tab_category">Category</string>
 
+    <!-- BaoBaoActivity -->
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <!-- End of BaoBaoActivity -->
+
 </resources>

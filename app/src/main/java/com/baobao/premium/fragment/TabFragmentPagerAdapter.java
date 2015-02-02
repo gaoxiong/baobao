@@ -19,7 +19,7 @@ import java.util.List;
  * Created by gaoxiong on 15-1-27.
  */
 public class TabFragmentPagerAdapter extends PagerAdapter implements
-  PagerSlidingTabStrip.TabProvider{
+  PagerSlidingTabStrip.TabProvider {
   Context context;
   FragmentManager fragmentManager;
   private Fragment currentPrimaryItem = null;
